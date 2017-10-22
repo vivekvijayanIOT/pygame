@@ -1,0 +1,27 @@
+Algorithm for planet.py:
+--------------------------------------------------
+1.start the program.
+2.import all the required py-packages.
+3.initiate the pygame class and set the pygame display size.
+4.load the images of sun,moon,earth into a variable, if images are not available just initialise a color upon a variable.
+5.Create a random stars within the display size and Set the Screen background as black.
+6.Now for every event in pygame, move the location of each variables(Earth,Moon) based on a mathematical formula.
+7.using blit function, record the every changes of each objects position on the screen.
+8.Finally set the clocking speed of this pygame.
+9.end.
+
+
+
+
+Algorithm for Ball bouncing:
+--------------------------------------------------
+1.start the program.
+2.import all the required py-packages.
+3.initiate the pygame class and set the pygame display size.
+4.load the image of a ball to a variable.
+5.set the gravityAcceleration (i.e. How fast the y-axis of the ball should get reduced).
+6.Now using the key object of pygame to make a game interactive, Using K_LEFT, K_RIGHT, K_UP make change to the position of the ball.
+7.Based on the gravityAcceleration, Onrelease of the key the ball must reach down.
+8.using blit function, record the every changes of each objects position on the screen.
+9.Finally set the clocking speed of this pygame.
+10.end.
